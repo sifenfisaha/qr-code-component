@@ -14,10 +14,10 @@ html {
 .container {
   width: 35rem;
   background-color: hsl(0, 0%, 100%);
-  margin: auto auto;
+  /* margin: 0 auto; */
   border-radius: 1.5rem;
   padding: 2rem;
-  margin-top: 5rem;
+
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -37,5 +37,11 @@ html {
   font-weight: 700;
   text-align: center;
   color: #1f314f;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 /* 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
